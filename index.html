@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Journal - Digital Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Section -->
+        <header class="profile-section">
+            <div class="profile-pic-container">
+                <img src="/img/yo.jpeg">
+            </div>
+            <h1 class="profile-name">Eduardo Antonio Guzmán Morán</h1>
+            <p class="profile-bio">Student • Book Lover • Music Enthusiast • Dreamer</p>
+            <p class="profile-quote"><i>"Every day is a blank page in the journal of life"</i></p>
+        </header>
+
+        <!-- Cards Container -->
+        <main class="cards-container">
+            <!-- Card 1: Personal Information & Feelings -->
+            <article class="card" id="card1">
+                <div class="card-header">
+                    <h2 class="card-title">Personal Journal</h2>
+                    <div class="card-subtitle">Thoughts & Feelings</div>
+                </div>
+                
+                <div class="card-content">
+                    <p class="card-text">Sometimes school can make me feel anxious, but writing in my journal helps me calm down and I like expressing my thoughts to feel better.</p>
+                    
+                    <div class="card-image-slider">
+                        <div class="slider-track">
+                            <!-- Slide 1 -->
+                            <div class="slide active">
+                                <img src="https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Journal and pen on desk">
+                                <div class="slide-caption">My journal - where thoughts become words</div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="slide">
+                                <img src="/img/Cuarto rojojpeg.jpeg" alt="Study desk with books">
+                                <div class="slide-caption">My study space - organized chaos</div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Coffee cup and notebook">
+                                <div class="slide-caption">Morning coffee fuels my thoughts</div>
+                            </div>
+                        </div>
+                        
+                        <div class="slider-controls">
+                            <button class="slider-btn prev-btn" aria-label="Previous image">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="slider-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                            <button class="slider-btn next-btn" aria-label="Next image">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="feelings-list">
+                        <h3>Current Feelings:</h3>
+                        <ul>
+                            <li><span class="feeling-tag">Hopeful</span> about the new school year</li>
+                            <li><span class="feeling-tag">Nervous</span> about biology exam</li>
+                            <li><span class="feeling-tag">Grateful</span> for supportive friends</li>
+                            <li><span class="feeling-tag">Inspired</span> by my English teacher</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 2: Happy Place & Activities -->
+            <article class="card" id="card2">
+                <div class="card-header">
+                    <h2 class="card-title">My Happy Place</h2>
+                    <div class="card-subtitle">Where I Recharge</div>
+                </div>
+                
+                <div class="card-content">
+                    
+                    <p class="card-text">Thanks to my parents, I developed a love for books, and my bedroom has become my happy place where reading helps me get over stress and feel relaxed.</p>
+                    
+                    <div class="card-image-slider">
+                        <div class="slider-track">
+                            <!-- Slide 1 -->
+                            <div class="slide active">
+                                <img src="/img/hunger gamer.jpg" alt="Library with bookshelves">
+                                <div class="slide-caption">My favourite book</div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="slide">
+                                <img src="/img/gatos en librero.jpeg" alt="Books on a shelf">
+                                <div class="slide-caption">My bookshelf and cats</div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="slide">
+                                <img src="/img/The-Metamorphosis-by-Franz-Kafka.jpg" alt="Reading nook by window">
+                                <div class="slide-caption">Current reading book</div>
+                            </div>
+                        </div>
+                        
+                        <div class="slider-controls">
+                            <button class="slider-btn prev-btn" aria-label="Previous image">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="slider-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                            <button class="slider-btn next-btn" aria-label="Next image">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="activities-list">
+                        <h3>Favorite Library Activities:</h3>
+                        <ul>
+                            <li>Discovering new authors in the fiction section</li>
+                            <li>Studying for exams in the quiet study area</li>
+                            <li>Attending the monthly book club meetings</li>
+                            <li>Sketching in my art journal by the window</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 3: Music Preferences -->
+            <article class="card" id="card3">
+                <div class="card-header">
+                    <h2 class="card-title">Musical Timeline</h2>
+                    <div class="card-subtitle">Decades of Sound</div>
+                </div>
+                
+                <div class="card-content">
+                    <p class="card-text">I listen to music to relax when I feel confused, and bands like Panic! at the Disco help me chill out and connect with my emotions.</p>
+                    
+                    <div class="card-image-slider">
+                        <div class="slider-track">
+                            
+                            <div class="slide">
+                                <img src="/img/voodoo chile.jpeg" alt="song">
+                                <div class="slide-caption">voodoo child - This song makes me feel excited</div>
+                            </div>
+
+                            <div class="slide active">
+                                <img src="/img/portada PATD.jpg" alt="Vinyl records">
+                                <div class="slide-caption">My favorite album </div>
+                            </div>
+                            
+                            <div class="slide">
+                                <img src="/img/Cat and guitar 2.jpeg" alt="Guitar leaning on wall">
+                                <div class="slide-caption">my guitar (and my rockstar cat)</div>
+                            </div>
+                        </div>
+                        
+                        <div class="slider-controls">
+                            <button class="slider-btn prev-btn" aria-label="Previous image">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="slider-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                            <button class="slider-btn next-btn" aria-label="Next image">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="music-timeline">
+                        <h3>Favorite Genres by Decade:</h3>
+                        <div class="timeline-item">
+                            <div class="decade">1980s</div>
+                            <div class="genre">Synth-pop & New Wave</div>
+                            <p class="timeline-desc">The birth of electronic music with artists like Guns N' Roses and Bon Jovi.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="decade">1990s</div>
+                            <div class="genre">Alternative Rock & Grunge</div>
+                            <p class="timeline-desc">Raw, emotional sound from bands like Nirvana and Pearl Jam.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="decade">2000s</div>
+                            <div class="genre">Indie & Post-punk Revival</div>
+                            <p class="timeline-desc">The rise of indie bands like System of a Down and Arctic Monkeys.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="decade">2010s</div>
+                            <div class="genre">Indie Folk & Dream Pop</div>
+                            <p class="timeline-desc">Atmospheric sounds from artists like Sleep Token and Imagine Dragons.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+        
+        <footer class="page-footer">
+            <p>Eduardo Guzmán 20220498 &copy; <span id="current-year">2023</span> • A cozy digital space for thoughts</p>
+            <p class="swipe-hint"><i class="fas fa-hand-point-up"></i> Swipe images horizontally to see more</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
